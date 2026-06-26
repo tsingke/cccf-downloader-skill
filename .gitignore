@@ -1,0 +1,20 @@
+# CCCF Downloader .gitignore
+
+# Cookie (包含登录凭据)
+cookies.json
+
+# 运行时生成
+*.pyc
+__pycache__/
+.DS_Store
+
+# 下载的 PDF（由脚本管理，不纳入版本控制）
+*.pdf
+
+# 跟踪文件
+.*.json
+.*.log
+
+# 编辑器
+.vscode/
+.idea/

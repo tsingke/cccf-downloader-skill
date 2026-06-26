@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="60" fill="url(#g)"/>
+
+  <!-- 字母 C 的抽象设计 -->
+  <g transform="translate(60, 60)">
+    <path d="M 140 20
+             A 120 120 0 0 0 20 140
+             A 120 120 0 0 0 140 260"
+          fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="40"/>
+    <path d="M 140 40
+             A 100 100 0 0 0 40 140
+             A 100 100 0 0 0 140 240"
+          fill="none" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- CCCF 文字 -->
+  <text x="200" y="140" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="900" fill="white" text-anchor="middle" letter-spacing="8">CCCF</text>
+
+  <!-- 下划线装饰 -->
+  <rect x="100" y="158" width="200" height="4" rx="2" fill="#60A5FA"/>
+
+  <!-- 副标题 -->
+  <text x="200" y="190" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#93C5FD" text-anchor="middle" letter-spacing="2">DOWNLOADER</text>
+
+  <!-- 下载箭头 -->
+  <g transform="translate(165, 220)">
+    <rect x="0" y="30" width="70" height="6" rx="3" fill="#60A5FA"/>
+    <path d="M 35 0 L 35 30 M 15 18 L 35 30 L 55 18" fill="none" stroke="#60A5FA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- PDF 标签 -->
+  <rect x="155" y="290" width="90" height="28" rx="6" fill="#EF4444"/>
+  <text x="200" y="309" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">PDF</text>
+</svg>

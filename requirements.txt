@@ -1,0 +1,3 @@
+# CCCF Downloader
+
+openpyxl>=3.0
